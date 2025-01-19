@@ -9,7 +9,7 @@ int main()
     }
     else
     {
-        printf("Not Divisible")
+        printf("Not Divisible");
     }
     return 0;
 
