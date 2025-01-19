@@ -3,8 +3,7 @@
 int main()
 {
     double number;
-    scanf("%1f", &number);
-    number=(int)(number*10000)/10000.0;
+    scanf("%f", &number);
     printf("You entered: %.4f\n", number);
     return 0;
 }
