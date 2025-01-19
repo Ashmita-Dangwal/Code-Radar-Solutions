@@ -9,7 +9,7 @@ int main()
     }
     else
     {
-        printf("Not Valid");
+        printf("Inalid");
     }
     return 0;
 }
