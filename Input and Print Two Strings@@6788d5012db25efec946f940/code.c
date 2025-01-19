@@ -3,8 +3,8 @@
 int main()
 {
     char str[40];
-    char ptr[40];
-    scanf("%[^\n] %[^\n]",&str,&ptr);
-    printf("You entered: %s and %s",str,ptr);
+    char str2[40];
+    scanf("%s %s",&str,&str2);
+    printf("You entered: %s and %s\n",str,str1);
     return 0;
 }
