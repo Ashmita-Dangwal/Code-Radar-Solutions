@@ -14,7 +14,12 @@ int main()
         printf("%d",a*b);
     }
     else if(c== '/'){
-        printf("%d",a/b);
+        if(b!=0){
+            printf("%d",a/b);
+        }
+        else{
+            printf("error division by zero");
+        }
     }
     else{
         printf("error");
