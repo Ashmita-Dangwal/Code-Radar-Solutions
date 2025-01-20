@@ -18,7 +18,7 @@ int main()
             printf("%d",a/b);
         }
         else{
-            printf("error division by zero");
+            printf("error");
         }
     }
     else{
