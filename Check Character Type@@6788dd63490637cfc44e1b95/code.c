@@ -3,11 +3,11 @@ int main()
 {
     char c;
     scanf("%c",&c);
-    if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+    if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
     {
         printf("Vowel");
     }
-    else if(c=='b'||c=='c'||c=='d'||c=='f'||c=='g'||c=='h'||c=='j'||c=='k'||c=='l'||c=='m'||c=='n'||c=='p'||c=='q'||c=='r'||c=='s'||c=='t'||c=='v'||c=='w'||c=='x'||c=='y'||c=='z')
+    else if(c=='b'||c=='c'||c=='d'||c=='f'||c=='g'||c=='h'||c=='j'||c=='k'||c=='l'||c=='m'||c=='n'||c=='p'||c=='q'||c=='r'||c=='s'||c=='t'||c=='v'||c=='w'||c=='x'||c=='y'||c=='z'||(c>='A'&& c<='Z'))
     {
         printf("Consonant");
     }
@@ -15,7 +15,7 @@ int main()
     {
         printf("Digit");
     }
-    else
+    else 
     {
         printf("Special Character");
     }
