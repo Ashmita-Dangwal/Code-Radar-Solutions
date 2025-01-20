@@ -2,8 +2,10 @@
 int main()
 {
     int a;
+    int z;
+    z=a*a;
     scanf("%d",&a);
-    if(a==(a*a)){
+    if(a==z){
         printf("Yes");
     }
     else{
