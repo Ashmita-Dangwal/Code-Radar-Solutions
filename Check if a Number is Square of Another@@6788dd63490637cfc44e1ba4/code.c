@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a;
+    int a,b;
+    scanf("%d %d",&a,&b);
     int z;
-    z=a*a;
-    scanf("%d",&a);
+    z=b*b;
     if(a==z){
         printf("Yes");
     }
