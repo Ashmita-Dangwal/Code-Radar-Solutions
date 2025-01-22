@@ -2,7 +2,7 @@
 int main()
 {
     int a;
-    scanf("%a",&a);
+    scanf("%d",&a);
     // int lsb=a%2;
     if(a & 1)
     {
