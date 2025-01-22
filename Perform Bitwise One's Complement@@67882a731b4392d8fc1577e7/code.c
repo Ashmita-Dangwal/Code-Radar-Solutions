@@ -3,7 +3,7 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    int z=a~a;
+    int z=~a;
     printf("%d",z);
     return 0;
 }
