@@ -3,8 +3,7 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    int msb=1 << (BITS-1);
-    if(a & mbs)
+    if(a& 0*80000000)
     {
         printf("Set");
     }
