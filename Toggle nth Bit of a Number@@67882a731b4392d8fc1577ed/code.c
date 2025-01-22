@@ -2,7 +2,7 @@
 int main()
 {
     int num,n;
-    scanf("%d %d",&a,&b);
+    scanf("%d %d",&num,&n);
     int r=num^(1<<n);
     printf("%d\n",r);
     return 0;
