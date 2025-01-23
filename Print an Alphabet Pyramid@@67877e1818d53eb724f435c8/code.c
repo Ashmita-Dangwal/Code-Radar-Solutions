@@ -8,13 +8,13 @@ int main()
         int a=1;
         for(int k=1;k<=n-i;k++)
         {
-            printf(" ");
+            printf("");
         }
         for(int j=1;j<=2*i-1;j++)
         {
             int d =a+64;
             char ch=(char)d;
-            printf("%c",ch);
+            printf("%c ",ch);
             a++;
         }
         printf("\n");
