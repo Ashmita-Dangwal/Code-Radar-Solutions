@@ -10,7 +10,7 @@ int main()
         {
             printf(" ");
         }
-        for(int j=1;j<2*i-1;j++)
+        for(int j=1;j<=2*i-1;j++)
         {
             int d =a+64;
             char ch=(char)d;
