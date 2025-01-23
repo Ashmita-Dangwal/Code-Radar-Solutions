@@ -15,6 +15,7 @@ int main()
             int d =a+64;
             char ch=(char)d;
             printf("%c ",ch);
+            if(j<i) printf(" ");
             a++;
         }
         printf("\n");
