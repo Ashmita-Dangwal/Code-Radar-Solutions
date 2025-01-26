@@ -9,13 +9,13 @@ int main()
         {
             printf(" ");
         }
-        for(int j=1;j<=i;j++)
+        for(int k=1;k<=i;k++)
         {
-            printf("%d",j);
+            printf("%d",k);
         }
-        for(int j=i-1;j>=1;j--)
+        for(int m=i-1;m>=1;m--)
         {
-            printf("%d",j);
+            printf("%d",m);
         }
         printf("\n");
     }
