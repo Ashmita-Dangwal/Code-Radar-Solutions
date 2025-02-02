@@ -15,7 +15,7 @@ int main()
     {
         scanf("%d %s %f",&s1[i].r,s1[i].n,&s1[i].m);
     }
-    int topindex=0
+    int topindex=0;
     for(int i=1;i<n;i++)
     {
         if(s1[i].m<s1[topindex].m)
