@@ -19,7 +19,7 @@ int main()
     {
         for(int j=0;j<n-i-1;j++)
         {
-            if(s1[j]<s1[j+1].m)
+            if(s1[j].m<s1[j+1].m)
             {
                 struct Student temp = s1[j];
                 s1[j]=s1[j+1];
