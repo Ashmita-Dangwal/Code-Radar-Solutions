@@ -4,7 +4,7 @@ struct Student
 {
     int r;
     char n[50];
-    float m;
+    float ma;
 };
 char getGrade(float m)
 {
@@ -19,11 +19,11 @@ int main()
     struct Student s1[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%d %s %f",&s1[i].r,s1[i].n,&s1[i].m);
+        scanf("%d %s %f",&s1[i].r,s1[i].n,&s1[i].ma);
     }
     for(int i=0;i<n;i++)
     {
-        char grade=getGrade(s1[i].m);
+        char grade=getGrade(s1[i].ma);
         printf("Roll Number: %d, Name: %s, Grade: %c\n",s1[i],r,s1[i].n,grade);
     }
     return 0;
