@@ -11,7 +11,7 @@ int main()
     int n;
     float s;
     scanf("%d\n",&n);
-    struct Students s1[n];
+    struct Student s1[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d %s %f\n",&s1[i].r,s1[i].n,&s1[i].m);
