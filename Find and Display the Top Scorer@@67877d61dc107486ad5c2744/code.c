@@ -21,7 +21,7 @@ int main()
         if(students[i].marks>students[topindex].marks)
         {
         topindex=i;
-        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",stuents[topindex].roll,students[topindex].name,students[topindex].marks);
+        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",students[topindex].roll,students[topindex].name,students[topindex].marks);
         }
     }
     return 0;
