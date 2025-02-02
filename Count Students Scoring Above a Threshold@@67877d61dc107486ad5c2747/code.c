@@ -10,14 +10,14 @@ int main()
 {
     int n;
     scanf("%d\n",&n);
-    struct Student s1;
+    struct Student s1[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d %s %f\n",&s1[i].r,s1[i].n,&s1[i].m);
     }
     int c;
     float t;
-    scanf("%f",&t);
+    scanf("%f\n",&t);
     for(int i=o;i<n;i++)
     {
         if(s1[i].m>t)
