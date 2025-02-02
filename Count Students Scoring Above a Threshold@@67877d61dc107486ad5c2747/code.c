@@ -18,7 +18,7 @@ int main()
     int c=0;
     float t;
     scanf("%f",&t);
-    for(int i=o;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         if(s1[i].m>t)
         {
