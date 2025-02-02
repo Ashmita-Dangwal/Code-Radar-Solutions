@@ -9,7 +9,7 @@ struct Student
 int main()
 {
     int n;
-    scanf("%d\n",&n);
+    scanf("%d",&n);
     struct Student s1[n];
     for(int i=0;i<n;i++)
     {
@@ -17,11 +17,11 @@ int main()
     }
     int c=0;
     float t;
-    scanf("%f\n",&t);
+    scanf("%f",&t);
     for(int i=o;i<n;i++)
     {
         if(s1[i].m>t)
-        c+=1;
+        c++;
     }
     printf("Count of students scoring above %.2f:\n %d",t,c);
     return 0;
