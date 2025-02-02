@@ -13,7 +13,7 @@ int main()
     struct Student s1[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%d %s %f\n",&s1[i].roll,s1[i].name,s1[i].marks);   
+        scanf("%d %s %f\n",&s1[i].roll,s1[i].name,&s1[i].marks);   
     }
     int a;
     scanf("%d",&a);
