@@ -23,7 +23,7 @@ int main()
             break;
         }
     }
-    if(allpassed==0)
+    if(allpassed)
     {
         printf("All Passed");
     }
