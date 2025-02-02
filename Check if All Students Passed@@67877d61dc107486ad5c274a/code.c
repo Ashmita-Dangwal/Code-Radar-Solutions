@@ -9,7 +9,7 @@ struct Student
 int main()
 {
     int n;
-    int allpassed=1
+    int allpassed=1;
     scanf("%d",&n);
     struct Student s1[n];
     for(int i=0;i<n;i++)
