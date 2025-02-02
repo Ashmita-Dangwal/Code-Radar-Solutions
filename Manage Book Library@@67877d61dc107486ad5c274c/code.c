@@ -16,12 +16,13 @@ int main()
         scanf("%s %s %f",b1[i].t, b1[i].a,&b1[i].p);
     }
     float t;
-    scannf("%f",&t);
+    scanf("%f",&t);
+    printf("Books above price %.2f:\n",t);
     for(int i=0;i<n;i++)
     {
         if(b1[i].p>t)
         {
-           printf("Books above price %.2f: Title: %s, Author: %s, Price: %.2f",t,b1[i].t,b1[i].a,b1[i].p);
+           printf("Title: %s, Author: %s, Price: %.2f",t,b1[i].t,b1[i].a,b1[i].p);
         }
     }
     return 0;
