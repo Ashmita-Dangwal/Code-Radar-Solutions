@@ -17,7 +17,7 @@ int main()
     {
         float Area=r1[i].l*r1[i].b;
         float Perimeter=2*(r1[i].l+r1[i].b);
-        printf("Reactangle %d: Area = %.2f, Perimeter = %.2f\n",i+1,Area,Perimeter);
+        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",i+1,Area,Perimeter);
     }
     return 0;
 }
