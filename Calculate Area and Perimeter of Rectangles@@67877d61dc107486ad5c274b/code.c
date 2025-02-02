@@ -14,10 +14,10 @@ int main()
     {
         sacnf("%d %d",&r1[i].l,&r1[i].b);
     }
-    float a=l*b;
-    float p=2*(l+b);
     for(int i=0;i<n;i++)
     {
+        float a=r1[i].l*r1[i].b;
+        float p=2*(r1[i].l+r1[i].b);
         printf("Reactangle %d: Area = %.2f, Perimeter = %.2f",i,a,p);
     }
     return 0;
