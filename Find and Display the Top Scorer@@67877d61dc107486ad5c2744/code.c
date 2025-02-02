@@ -16,7 +16,7 @@ int main()
         scanf("%d %s %f",&students[i].roll,students[i].name,&students[i].marks);
     }
     int topindex=0;
-    for(int i=0;i<n;i++)
+    for(int i=1;i<n;i++)
     {
         if(students[i].marks>students[topindex].marks)
         {
