@@ -9,7 +9,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    struct Recatangle r1[n];
+    struct Rectangle r1[n];
     for(int i=0;i<n;i++)
     {
         sacnf("%d %d",&r1[i].l,&r1[i].b);
