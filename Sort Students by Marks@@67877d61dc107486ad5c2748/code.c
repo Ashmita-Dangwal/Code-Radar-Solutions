@@ -26,10 +26,10 @@ int main()
                 s1[j+1]=temp;
             }
         }
-    }
-    for(int i=0;i<n;i++)
-    {
-        printf("Roll Number: %d, Name: %s, Marks: %.2f",s1[i].r,s1[i].n,s1[i].m);
+        for(int i=0;i<n;i++)
+        {
+            printf("Roll Number: %d, Name: %s, Marks: %.2f",s1[i].r,s1[i].n,s1[i].m);
+        }
     }
     return 0;
 }
