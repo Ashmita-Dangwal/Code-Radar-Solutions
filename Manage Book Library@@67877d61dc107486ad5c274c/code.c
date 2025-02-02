@@ -15,7 +15,7 @@ int main()
     {
         scanf("%s %s %d",b1[i].b, b1[i].a,&b1[i].p);
     }
-    int t;
+    float t;
     scannf("%d",&t);
     for(int i=0;i<n;i++)
     {
