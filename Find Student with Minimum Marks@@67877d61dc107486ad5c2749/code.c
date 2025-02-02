@@ -10,7 +10,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    struct Student s1;
+    struct Student s1[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d %s %f",&s[1].r,s[1].n,&s1[i].m);
