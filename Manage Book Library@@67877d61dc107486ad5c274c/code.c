@@ -21,7 +21,7 @@ int main()
     {
         if(b1[i].p>t)
         {
-           printf("Title: %s, Author: %s, Price: %.2f",b1[i].t,b1[i].a,b1[i].p);
+           printf("Books above price %.2f: Title: %s, Author: %s, Price: %.2f",t,b1[i].t,b1[i].a,b1[i].p);
         }
     }
     return 0;
