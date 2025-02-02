@@ -9,7 +9,7 @@ struct Student
 int main()
 {
     int n;
-    float s,a;
+    float s;
     scanf("%d\n",&n);
     struct Students s1[n];
     for(int i=0;i<n;i++)
@@ -17,7 +17,7 @@ int main()
         scanf("%d %s %f\n",&s1[i].r,s1[i].n,&s1[i].m);
         s+=s1[i].m;
     }
-    a=s/n;
+    float a=s/n;
     printf("Total Marks: %.2f\n",s);
     printf("Average Marks: %.2f\n",a);
     return 0;
