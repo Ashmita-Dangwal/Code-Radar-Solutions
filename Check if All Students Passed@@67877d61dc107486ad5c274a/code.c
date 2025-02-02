@@ -2,7 +2,7 @@
 #include<string.h>
 struct Student
 {
-    in r;
+    int r;
     char n[50];
     float m;
 };
