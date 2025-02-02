@@ -6,7 +6,7 @@ struct Student
     char n[50];
     float m;
 };
-char getgrade(float m)
+char getGrade(float m)
 {
     if(m>= 85) return 'A';
     else if(m>=70) return 'B';
@@ -23,8 +23,8 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        char grade=getgrade(s1[i].m);
-        printf("Roll NUmber: %d, Nmae: %s, Grade: %c",s1[i],r,s1[i].n,grade);
+        char grade=getGrade(s1[i].m);
+        printf("Roll NUmber: %d, Name: %s, Grade: %c",s1[i],r,s1[i].n,grade);
     }
     return 0;
 }
