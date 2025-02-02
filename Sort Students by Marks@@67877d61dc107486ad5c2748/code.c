@@ -21,9 +21,9 @@ int main()
         {
             if(s1[j].m<s1[j+1].m)
             {
-                struct Student temp = s1[j];
-                s1[j]=s1[j+1];
-                s1[j+1]=temp;
+                struct Student temp = s1[j].m;
+                s1[j].m=s1[j+1].m;
+                s1[j+1].m=temp;
             }
         }
         for(int i=0;i<n;i++)
