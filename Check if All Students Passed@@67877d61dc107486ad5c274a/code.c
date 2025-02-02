@@ -24,7 +24,7 @@ int main()
             break;
         }
     }
-    if(allpassed==1)
+    if(allpassed)
     {
         printf("All Passed");
     }
