@@ -15,7 +15,7 @@ int main()
     {
         scanf("%d %s %f\n",&s1[i].r,s1[i].n,&s1[i].m);
     }
-    int c;
+    int c=0;
     float t;
     scanf("%f\n",&t);
     for(int i=o;i<n;i++)
