@@ -15,7 +15,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         scanf("%d %s %f",&s1[i].r,s1[i].n,&s1[i].m);
-        s+=s1[i]+m;
+        s+=s1[i].m;
     }
     a=s/n;
     printf("Total Marks: %.2f",s);
