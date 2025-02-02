@@ -5,7 +5,7 @@ struct Student
     int r;
     char n[50];
     float m;
-}
+};
 int main()
 {
     int n;
