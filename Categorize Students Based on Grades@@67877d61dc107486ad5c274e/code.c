@@ -24,7 +24,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         char grade=getGrade(s1[i].m);
-        printf("Roll NUmber: %d, Name: %s, Grade: %c\n",s1[i],r,s1[i].n,grade);
+        printf("Roll Number: %d, Name: %s, Grade: %c\n",s1[i],r,s1[i].n,grade);
     }
     return 0;
 }
