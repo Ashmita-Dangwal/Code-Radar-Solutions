@@ -20,7 +20,7 @@ int main()
     {
         if(students.marks[i]>max[0])
         max=students.marks[i];
-        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",stuents.roll[i],students.name[i],max);
+        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",stuents.roll[i],students.name[i],students.marks[i]);
     }
     return 0;
 }
