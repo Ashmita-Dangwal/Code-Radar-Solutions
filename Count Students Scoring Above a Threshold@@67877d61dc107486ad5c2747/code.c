@@ -21,7 +21,9 @@ int main()
     for(int i=o;i<n;i++)
     {
         if(s1[i].m>t)
-        c++;
+        {
+            c++;
+        }    
     }
     printf("Count of students scoring above %.2f:\n %d",t,c);
     return 0;
