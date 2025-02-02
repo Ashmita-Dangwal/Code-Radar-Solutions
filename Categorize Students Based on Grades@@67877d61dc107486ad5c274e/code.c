@@ -19,7 +19,7 @@ int main()
     {
         char grade;
         if(s1[i].m>=85) grade='A';
-        else if(s1[i]>=70) grade='B';
+        else if(s1[i].m>=70) grade='B';
         else grade='C';
         printf("Roll Number: %d, Name: %s, Grade: %c\n",s1[i],r,s1[i].n,grade);
     }
