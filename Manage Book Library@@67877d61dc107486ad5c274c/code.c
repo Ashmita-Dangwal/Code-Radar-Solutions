@@ -22,7 +22,7 @@ int main()
     {
         if(b1[i].p>t)
         {
-           printf("Title: %s, Author: %s, Price: %.2f",b1[i].t,b1[i].a,b1[i].p);
+           printf("Title: %s, Author: %s, Price: %.2f\n",b1[i].t,b1[i].a,b1[i].p);
         }
     }
     return 0;
