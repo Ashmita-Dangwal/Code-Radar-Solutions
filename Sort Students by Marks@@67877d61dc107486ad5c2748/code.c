@@ -17,19 +17,19 @@ int main()
     }
     for(for int i=0;i<n-1;i++)
     {
-        for(int j=0;j<n-i-1;j++)
+        for(int j=0;j<n-1-i;j++)
         {
             if(s1[j].m<s1[j+1].m)
             {
-                struct Student temp = s1[j].m;
-                s1[j].m=s1[j+1].m;
-                s1[j+1].m=temp;
+                struct Student temp = s1[j];
+                s1[j]=s1[j+1];
+                s1[j+1]=temp;
             }
         }
-        for(int i=0;i<n;i++)
-        {
-            printf("Roll Number: %d, Name: %s, Marks: %.2f",s1[i].r,s1[i].n,s1[i].m);
-        }
+    }
+    for(int i=0;i<n;i++)
+    {
+        printf("Roll Number: %d, Name: %s, Marks: %.2f",s1[i].r,s1[i].n,s1[i].m);
     }
     return 0;
 }
