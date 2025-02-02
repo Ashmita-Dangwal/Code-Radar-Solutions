@@ -19,7 +19,7 @@ int main()
     scanf("%d",&a);
     if(a==s1[i].roll)
     {
-        printf("Roll Number: %d, Name: %s, Marks: %.2f");
+        printf("Roll Number: %d, Name: %s, Marks: %.2f",s1[i].roll,s1[i].name,s1[i].marks);
     }
     else
     {
