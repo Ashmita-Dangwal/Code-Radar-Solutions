@@ -12,7 +12,7 @@ int main()
     int allpassed=1
     scanf("%d",&n);
     struct Student s1[n];
-    for(int i=i;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         scanf("%d %s %f",&s1[i].r,s1[i].n,&s1[i].m);
     }
@@ -24,7 +24,7 @@ int main()
             break;
         }
     }
-    if(allpassed)
+    if(allpassed==0)
     {
         printf("All Passed");
     }
