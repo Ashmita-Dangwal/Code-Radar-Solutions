@@ -3,25 +3,25 @@
 struct Student 
 {
     int roll;
-    char name;
+    char name[30];
     float marks;
 };
 int main()
 {
     int n;
     scanf("%d",&n);
-    struct Student students[i];
+    struct Student students[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d %s %f",&students.roll[i],&students.name[i],&students.marks[i]);
     }
-    float max=students.marks[0];
+    int topindex=0;
     for(int i=0;i<n;i++)
     {
-        if(students.marks[i]>max[0])
+        if(students[i].marks>students[topindex].marks)
         {
-        max=students.marks[i];
-        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",stuents.roll[i],students.name[i],students.marks[i]);
+        topindex=i;
+        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",stuents[topindex].roll,students[topindex].name,students[topindex].marks);
         }
     }
     return 0;
