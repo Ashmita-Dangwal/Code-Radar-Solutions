@@ -2,7 +2,7 @@
 #include<string.h>
 struct Book
 {
-    int p;
+    float p;
     char b[50];
     char a[50];
 };
@@ -13,7 +13,7 @@ int main()
     struct Book b1[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%s %s %d",b1[i].b, b1[i].a,&b1[i].p);
+        scanf("%s %s %f",b1[i].b, b1[i].a,&b1[i].p);
     }
     float t;
     scannf("%d",&t);
