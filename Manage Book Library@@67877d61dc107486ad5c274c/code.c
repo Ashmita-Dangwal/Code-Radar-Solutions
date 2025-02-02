@@ -3,7 +3,7 @@
 struct Book
 {
     float p;
-    char b[50];
+    char t[50];
     char a[50];
 };
 int main()
@@ -13,10 +13,10 @@ int main()
     struct Book b1[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%s %s %f",b1[i].b, b1[i].a,&b1[i].p);
+        scanf("%s %s %f",b1[i].t, b1[i].a,&b1[i].p);
     }
     float t;
-    scannf("%d",&t);
+    scannf("%f",&t);
     for(int i=0;i<n;i++)
     {
         if(b1[i].p>t)
