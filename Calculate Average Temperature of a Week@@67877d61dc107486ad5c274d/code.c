@@ -8,7 +8,7 @@ struct Day
 int main()
 {
     int sum=0;
-    struct Day s[8];
+    struct Day s[100];
     for(int i=0;i<7;i++)
     {
         scanf("%s %d",s[i].d,&s[i].t);
