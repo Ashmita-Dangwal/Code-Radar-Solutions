@@ -23,6 +23,6 @@ int main()
             topindex=i;
         }
     }
-    printf("Student with Minimum marks: Roll Number: %d, Name: %s, Matks: %.2f",s1[topindex].r,s1[topindex].n,s1[topindex].m);
+    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",s1[topindex].r,s1[topindex].n,s1[topindex].m);
     return 0;
 }
