@@ -3,7 +3,7 @@
 struct sub
 {
     char n[50];
-    char t[50];
+    char t[20];
     float p;
 };
 int main()
