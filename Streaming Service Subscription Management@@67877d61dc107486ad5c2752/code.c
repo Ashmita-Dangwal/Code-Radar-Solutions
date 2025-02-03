@@ -13,7 +13,7 @@ int main()
     int n;
     scanf("%d",&n);
     struct Subscription s1[n];
-    for(int i=0,i<n,i++)
+    for(int i=0;i<n;i++)
     {
         scanf("%s %s %f",s1[i].n,s1[i].t,&s1[i].p);
         if(strcmp(s1[i].t, "Basic")==0)
