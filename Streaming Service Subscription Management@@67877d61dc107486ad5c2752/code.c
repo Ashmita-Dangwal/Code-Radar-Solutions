@@ -11,7 +11,7 @@ int main()
     int n;
     scanf("%d",&n);
     struct sub s[n];
-    int b=0,s=0,p=0;
+    int b=0,st=0,p=0;
     float br=0,sr=0,pr=0;
     for(int i=0,i<n,i++)
     {
@@ -23,7 +23,7 @@ int main()
         }
         else if(strcmp(s[i].t, "Standard")==0)
         {
-            s++;
+            st++;
             sr+=s[i].p;
         }
         else if(strcmp(s[i].t, "Premium")==0)
@@ -33,7 +33,7 @@ int main()
         }
     }
     printf("Basic: %d Users, Revenue: %.2f\n",b,br);
-    printf("Standar: %d Users, Revenue: %.2f\n",s,sr);
+    printf("Standar: %d Users, Revenue: %.2f\n",st,sr);
     printf("Premium: %d Users, Revenue: %.2f\n",p,pr);
     return 0;
 }
