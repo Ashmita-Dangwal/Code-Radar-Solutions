@@ -17,15 +17,15 @@ int main()
         scanf("%s %s %f",v[i].n,v[i].m,&v[i].p);
         if(strcmp(v[i].m, "Car")==0)
         {
-            c+=v[i].m;
+            c+=v[i].p;
         }
         else if(strcmp(v[i].m, "Truck")==0)
         {
-            t+=v[i].m;
+            t+=v[i].p;
         }
         else if(strcmp(v[i].m, "Bike")==0)
         {
-            b+=v[i].m;
+            b+=v[i].p;
         }
     }
     printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f\n",c,t,b);
