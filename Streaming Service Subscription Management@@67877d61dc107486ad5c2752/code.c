@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include<string.h>
 struct Subscription
 {
     char n[50];
@@ -12,7 +12,7 @@ int main()
     float br=0,sr=0,pr=0;
     int n;
     scanf("%d",&n);
-    struct Subscription s1[100];
+    struct Subscription s1[n];
     for(int i=0,i<n,i++)
     {
         scanf("%s %s %f",s1[i].n,s1[i].t,&s1[i].p);
