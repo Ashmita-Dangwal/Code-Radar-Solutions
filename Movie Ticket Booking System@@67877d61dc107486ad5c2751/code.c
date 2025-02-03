@@ -14,7 +14,7 @@ int main()
     struct Movie m1[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%s %s %f",m1[i].m,m1[i].t.m1[i].p);
+        scanf("%s %s %f",m1[i].m,m1[i].t,&m1[i].p);
         if(strcmp(m1[i].t, "Standard")==0)
         {
             s+=m1[i].p;
