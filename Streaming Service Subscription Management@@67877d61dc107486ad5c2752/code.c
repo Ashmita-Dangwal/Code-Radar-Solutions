@@ -15,7 +15,7 @@ int main()
     float br=0,sr=0,pr=0;
     for(int i=0,i<n,i++)
     {
-        scanf("%s %s %f",s1[i].n,s1[i].t,&s1[i].p);
+        scanf(" %49s %19s %f",s1[i].n,s1[i].t,&s1[i].p);
         if(strcmp(s1[i].t,"Basic")==0)
         {
             b++;
