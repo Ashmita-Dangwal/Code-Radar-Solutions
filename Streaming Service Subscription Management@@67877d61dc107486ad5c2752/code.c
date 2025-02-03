@@ -10,7 +10,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    stuct sub s[n];
+    struct sub s[n];
     int b,s,p=0;
     float br,sr,pr=0;
     for(int i=0,i<n,i++)
