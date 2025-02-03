@@ -10,26 +10,26 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    struct sub s[n];
+    struct sub s1[n];
     int b=0,st=0,p=0;
     float br=0,sr=0,pr=0;
     for(int i=0,i<n,i++)
     {
-        scanf("%s %s %f",s[i].n,s[i].t,&s[i].p)
-        if(strcmp(s[i].t, "Basic")==0)
+        scanf("%s %s %f",s1[i].n,s1[i].t,&s1[i].p)
+        if(strcmp(s1[i].t, "Basic")==0)
         {
             b++;
-            br+=s[i].p;
+            br+=s1[i].p;
         }
-        else if(strcmp(s[i].t, "Standard")==0)
+        else if(strcmp(s1[i].t, "Standard")==0)
         {
             st++;
-            sr+=s[i].p;
+            sr+=s1[i].p;
         }
-        else if(strcmp(s[i].t, "Premium")==0)
+        else if(strcmp(s1[i].t, "Premium")==0)
         {
             p++;
-            pr+=s[i].p;
+            pr+=s1[i].p;
         }
     }
     printf("Basic: %d Users, Revenue: %.2f\n",b,br);
