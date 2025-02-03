@@ -8,8 +8,8 @@ struct Subscription
 };
 int main()
 {
-    int b=0,st=0,pt=0;
-    float br=0,sr=0,pr=0;
+    int b=0;int st=0;int pt=0;
+    float br=0;float sr=0;float pr=0;
     int n;
     scanf("%d",&n);
     struct Subscription s1[n];
