@@ -15,15 +15,15 @@ int main()
     for(int i=0;i<n;i++)
     {
         scanf("%s %s %f",v[i].n,v[i].m,&v[i].p);
-        if(strcmp(v[i].m,"Car")==0)
+        if(strcmp(v[i].m, "Car")==0)
         {
             c+=v[i].m;
         }
-        else if(strcmp(v[i].m,"Truck")==0)
+        else if(strcmp(v[i].m, "Truck")==0)
         {
             t+=v[i].m;
         }
-        else if(strcmp(v[i].m,"Bike")==0)
+        else if(strcmp(v[i].m, "Bike")==0)
         {
             b+=v[i].m;
         }
