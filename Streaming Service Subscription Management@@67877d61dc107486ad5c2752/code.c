@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-struct sub
+struct Subscription
 {
     char n[50];
     char t[20];
@@ -10,7 +10,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    struct sub s1[100];
+    struct Subscription s1[100];
     int b=0,st=0,pt=0;
     float br=0,sr=0,pr=0;
     for(int i=0,i<n,i++)
