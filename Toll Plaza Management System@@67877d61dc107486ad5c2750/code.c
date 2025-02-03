@@ -25,7 +25,7 @@ int main()
         }
         else if(strcmp(v[i].m,"Bike")==0)
         {
-            t+=v[i].m;
+            b+=v[i].m;
         }
     }
     printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f\n",c,t,b);
