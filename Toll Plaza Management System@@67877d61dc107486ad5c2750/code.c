@@ -19,7 +19,7 @@ int main()
         {
             c+=v[i].m;
         }
-        else if(strmp(v[i].m,"Truck")==0)
+        else if(strcmp(v[i].m,"Truck")==0)
         {
             t+=v[i].m;
         }
