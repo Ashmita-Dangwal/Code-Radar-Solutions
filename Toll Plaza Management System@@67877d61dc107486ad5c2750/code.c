@@ -8,13 +8,13 @@ struct Vehicle
 };
 int main()
 {
-    float c=0, t=0, b=0;
+    float c=0,t=0,b=0;
     int n;
     scanf("%d",&n);
     struct Vehicle v[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%s %s %f",v[i].n,e[i].m,&e[i].p);
+        scanf("%s %s %f",v[i].n,v[i].m,&v[i].p);
         if(strcmp(v[i].m,"Car")==0)
         {
             c+=v[i].m;
