@@ -11,7 +11,7 @@ int main()
     int n;
     scanf("%d",&n);
     struct sub s1[n];
-    int b=0,st=0,p=0;
+    int b=1,st=1,p=1;
     float br=0,sr=0,pr=0;
     for(int i=0,i<n,i++)
     {
