@@ -11,7 +11,7 @@ int main()
     int n;
     scanf("%d",&n);
     struct sub s1[100];
-    int b=0,st=0,p=0;
+    int b=0,st=0,pt=0;
     float br=0,sr=0,pr=0;
     for(int i=0,i<n,i++)
     {
@@ -28,12 +28,12 @@ int main()
         }
         else if(strcmp(s1[i].t, "Premium")==0)
         {
-            p++;
+            pt++;
             pr+=s1[i].p;
         }
     }
     printf("Basic: %d Users, Revenue: %.2f\n",b,br);
     printf("Standard: %d Users, Revenue: %.2f\n",st,sr);
-    printf("Premium: %d Users, Revenue: %.2f\n",p,pr);
+    printf("Premium: %d Users, Revenue: %.2f\n",pt,pr);
     return 0;
 }
