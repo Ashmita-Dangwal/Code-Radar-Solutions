@@ -12,7 +12,7 @@ int main()
     scanf("%d",&n);
     struct Subscription s1[100];
     int b=1,st=1,pt=1;
-    float br=0,sr=0,pr=0;
+    float br=0.0,sr=0.0,pr=0.0;
     for(int i=0,i<n,i++)
     {
         scanf("%s %s %f",s1[i].n,s1[i].t,&s1[i].p);
