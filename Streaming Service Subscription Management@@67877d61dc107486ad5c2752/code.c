@@ -32,8 +32,8 @@ int main()
             pr+=s1[i].p;
         }
     }
-    printf("Basic: %d Users, Revenue: %.2f;\n",b,br);
-    printf("Standard: %d Users, Revenue: %.2f;\n",st,sr);
-    printf("Premium: %d Users, Revenue: %.2f;\n",pt,pr);
+    printf("Basic: %d Users, Revenue: %.2f; ",b,br);
+    printf("Standard: %d Users, Revenue: %.2f; ",st,sr);
+    printf("Premium: %d Users, Revenue: %.2f; ",pt,pr);
     return 0;
 }
