@@ -26,7 +26,7 @@ int main()
             smax=-1;
         }
     }
-    if(smax=INT_MIN)
+    if(smax==INT_MIN)
     {
         printf("-1\n");
     }
