@@ -9,15 +9,16 @@ int main()
         scanf("%d",&arr[i]);
     }
     int count=0;
-    int re=0
     for(int i=0;i<n;i++)
     {
         int original=arr[i];
+        int temp=arr[i];
+        int re=0;
         while(arr[i] !=0)
         {
-            int r=arr[i]%10;
-             re=re*10+r;
-            arr[i]/=10;
+            int r=temp%10;
+            re=re*10+r;
+            temp/=10;
         }
         if(original==re)
         {
