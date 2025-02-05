@@ -25,7 +25,6 @@ int main()
             }
         }  
     }
-    printf("%d",max);
-    printf("%d",min);
+    printf("%d %d",min,max);
     return 0;
 }
