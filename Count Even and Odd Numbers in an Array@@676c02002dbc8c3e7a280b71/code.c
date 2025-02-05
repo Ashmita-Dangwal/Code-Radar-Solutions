@@ -9,7 +9,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     int ce=0;
-    int c0=0;
+    int co=0;
     for(int i=0;i<size;i++)
     {
         if(arr[i]%2==0)
