@@ -15,12 +15,12 @@ int main()
         for(int j=i+1;j<n;j++)
         {
             int sum=arr[i]+arr[j];
-            if(sum==k)
-            {
-                printf("%d %d\n",arr[i],arr[j]);
-            }
             break;
         }
+    }
+    if(sum==k)
+    {
+        printf("%d %d\n",arr[i],arr[j]);
     }
     return 0;
 }
