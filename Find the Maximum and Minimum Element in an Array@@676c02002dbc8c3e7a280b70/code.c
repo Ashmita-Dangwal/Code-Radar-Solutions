@@ -4,7 +4,6 @@ int main()
     int n;
     scanf("%d",&n);
     int arr[n];
-    int min[n];
     int max,min;
     for(int i=0;i<n;i++)
     {
@@ -24,11 +23,9 @@ int main()
             {
                 min=arr[i];
             }
-        }
-       
+        }  
     }
     printf("%d",max);
     printf("%d",min);
     return 0;
-
 }
