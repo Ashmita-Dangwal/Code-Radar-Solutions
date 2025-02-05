@@ -20,7 +20,7 @@ int main()
             re=re*10+r;
             temp/=10;
         }
-        if(original==re)
+        if(original==re && re>0)
         {
             count++;
         }
