@@ -21,7 +21,7 @@ int main()
         {
             smax=arr[i];
         }
-        else if
+        else
         {
             smax=-1;
         }
