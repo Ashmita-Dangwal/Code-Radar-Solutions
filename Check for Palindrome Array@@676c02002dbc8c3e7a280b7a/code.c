@@ -1,7 +1,7 @@
 #include <stdio.h>
 int p(int arr[],int s)
 {
-    for(inti=0;i<s/2;i++)
+    for(int i=0;i<s/2;i++)
     {
         if(arr[i]!=arr[s-i-1])
         {
