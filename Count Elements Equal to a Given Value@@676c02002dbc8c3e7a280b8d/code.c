@@ -14,8 +14,8 @@ int main()
         if(arr[i]==k)
         {
             count++;
-            printf("%d",&count);
         }
+        printf("%d",count);
     }
     return 0;
 }
