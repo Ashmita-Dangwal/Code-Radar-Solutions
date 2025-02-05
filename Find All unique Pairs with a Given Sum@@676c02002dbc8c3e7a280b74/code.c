@@ -22,6 +22,7 @@ int main()
                 {
                     printf("%d %d\n",arr[i],arr[j]);
                     printed=1;
+                    break;
                 }
             }
         }
