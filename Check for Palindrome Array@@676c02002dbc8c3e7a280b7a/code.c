@@ -19,7 +19,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    if(p==1)
+    if(p(arr,s)==1)
     {
         printf("YES");
     }
