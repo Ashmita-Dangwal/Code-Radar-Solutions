@@ -16,7 +16,7 @@ int main()
         {
             continue;
         }
-        int temp=arr[i];
+        int temp=original;
         int re=0;
         while(temp !=0)
         {
