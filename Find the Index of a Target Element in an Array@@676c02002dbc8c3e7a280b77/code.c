@@ -9,20 +9,17 @@ int main()
         scanf("%d\n",&arr[i]);
     }
     int k;
-    int found=0;
     scanf("%d",&k);
     for(int i=0;i<n;i++)
     {
         if(k==arr[i])
         {
             printf("%d",i);
-            found 1;
-            break;
         }
-    }
-    if(!found)
-    {
-        printf("-1");
+        else 
+        {
+            printf("-1");
+        }
     }
     return 0; 
 }
