@@ -28,7 +28,7 @@ int main()
         }
         if(p==1)
         {
-            cunt++;
+            count++;
         }
     }
     printf("%d",count);
