@@ -14,8 +14,7 @@ int main()
         int temp=arr[i];
         while(temp!=0)
         {
-            int r=temp%10;
-            sum+=r;
+            sum+=temp%10;
             temp/=10;
         }
     }
