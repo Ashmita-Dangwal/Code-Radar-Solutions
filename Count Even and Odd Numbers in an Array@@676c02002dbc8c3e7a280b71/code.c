@@ -6,7 +6,7 @@ int main()
     int arr[size];
     for(int i=0;i<size;i++)
     {
-        printf("%d",arr[i]);
+        scanf("%d",arr[i]);
     }
     int ce=0;
     int c0=0;
