@@ -12,16 +12,24 @@ int main()
     for(int i=0;i<n;i++)
     {
         int p=1;
-        for(int j=0;j<i;j++)
+        if(arr[i]<2)
         {
-            if(i%j==0)
+            p=0;
+        }
+        else{
+        for(int j=2;j<arr[i];j++)
+        {
+            if(arr[i]%j==0)
             {
-                count++
-                prime=0;
+                p=0;
                 break;
             }
         }
+        }
+        if(p==1)
+        {
+            cunt++;
+        }
     }
     printf("%d",count);
-    return 0;
 }
