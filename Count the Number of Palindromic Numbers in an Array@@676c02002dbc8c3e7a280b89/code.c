@@ -9,14 +9,14 @@ int main()
         scanf("%d",&arr[i]);
     }
     int count=0;
-    int num;
+    int re=0
     for(int i=0;i<n;i++)
     {
         int original=arr[i];
         while(arr[i] !=0)
         {
             int r=arr[i]%10;
-            int re=re*10+r;
+             re=re*10+r;
             arr[i]/=10;
         }
         if(original==re)
