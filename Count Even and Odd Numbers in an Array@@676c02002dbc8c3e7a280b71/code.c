@@ -16,7 +16,7 @@ int main()
     }
     else
     {
-        co++
+        co++;
     }
     printf("%d %d",ce,co);
     return 0;
