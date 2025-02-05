@@ -17,7 +17,7 @@ int main()
             sum+=temp%10;
             temp/=10;
         }
+        printf("%d",sum);
     }
-    printf("%d",sum);
     return 0;
 }
