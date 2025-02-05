@@ -7,17 +7,18 @@ int main()
     int sum =0;
     for(int i=0;i<n;i++)
     {
-        scanf("%d",&n[i]);
+        scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++)
     {
-        for(int arr[i]=0;arr[i]!=0;arr[i]++)
+        int temp=arr[i];
+        while(temp!=0)
         {
-            int r=arr[i]%10;
+            int r=temp%10;
             sum+=r;
-            arr[i]/=10;
-            printf("%d",sum);
+            temp/=10;
         }
     }
+    printf("%d",sum);
     return 0;
 }
