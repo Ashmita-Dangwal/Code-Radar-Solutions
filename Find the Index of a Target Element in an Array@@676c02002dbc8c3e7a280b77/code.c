@@ -6,10 +6,16 @@ int main()
     int arr[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%d\n",arr[i]);
+        scanf("%d\n",&arr[i]);
     }
     int k;
     scanf("%d",&k);
-    printf("%d",arr[i]);
+    for(int i=0;i<n;i++)
+    {
+        if(k==arr[i])
+        {
+            printf("%d",arr[i]);
+        }
+    }
     return 0; 
 }
