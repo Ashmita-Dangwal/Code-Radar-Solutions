@@ -12,7 +12,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         int original=arr[i];
-        if(ariginal<0)
+        if(original<0)
         {
             continue;
         }
