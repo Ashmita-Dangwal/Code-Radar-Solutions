@@ -10,13 +10,16 @@ int main()
     }
     int ce=0;
     int c0=0;
-    if(arr[i]%2==0)
+    for(int i=0;i<size;i++)
     {
-        ce++;
-    }
-    else
-    {
-        co++;
+        if(arr[i]%2==0)
+        {
+            ce++;
+        }
+        else
+        {
+            co++;
+        }
     }
     printf("%d %d",ce,co);
     return 0;
