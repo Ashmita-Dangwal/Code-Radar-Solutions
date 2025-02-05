@@ -12,6 +12,7 @@ int main()
     {
         int sum=0;
         int temp=arr[i];
+        temp=temp<0?-temp:temp;
         while(temp!=0)
         {
             sum+=temp%10;
