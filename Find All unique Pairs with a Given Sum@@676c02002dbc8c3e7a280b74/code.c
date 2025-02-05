@@ -17,7 +17,7 @@ int main()
             int sum=arr[i]+arr[j];
             if(sum==k)
             {
-                printf("%d %d",arr[i],arr[j]);
+                printf("%d %d\n",arr[i],arr[j]);
             }
         }
     }
