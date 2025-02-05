@@ -8,6 +8,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
+    int printed=0;
     int k;
     scanf("%d",&k);
     for(int i=0;i<n;i++)
@@ -15,12 +16,15 @@ int main()
         for(int j=i+1;j<n;j++)
         {
             int sum=arr[i]+arr[j];
-            break;
+            if(sum==k)
+            {
+                if(!printed)
+                {
+                    printf("%d %d\n",arr[i],arr[j]);
+                    printed=1;
+                }
+            }
         }
-    }
-    if(sum==k)
-    {
-        printf("%d %d\n",arr[i],arr[j]);
     }
     return 0;
 }
