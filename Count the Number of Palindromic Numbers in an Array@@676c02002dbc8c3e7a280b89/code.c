@@ -12,6 +12,10 @@ int main()
     for(int i=0;i<n;i++)
     {
         int original=arr[i];
+        if(ariginal<0)
+        {
+            continue;
+        }
         int temp=arr[i];
         int re=0;
         while(temp !=0)
@@ -20,7 +24,7 @@ int main()
             re=re*10+r;
             temp/=10;
         }
-        if(original==re && re>0)
+        if(original==re)
         {
             count++;
         }
