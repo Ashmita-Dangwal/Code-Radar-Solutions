@@ -12,10 +12,10 @@ int p(int arr[],int s)
 }
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++)
+    int s;
+    scanf("%d",&s);
+    int arr[s];
+    for(int i=0;i<s;i++)
     {
         scanf("%d",&arr[i]);
     }
