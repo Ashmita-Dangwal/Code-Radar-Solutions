@@ -18,6 +18,7 @@ int main()
             if(sum==k)
             {
                 printf("%d %d\n",arr[i],arr[j]);
+                break;
             }
         }
     }
