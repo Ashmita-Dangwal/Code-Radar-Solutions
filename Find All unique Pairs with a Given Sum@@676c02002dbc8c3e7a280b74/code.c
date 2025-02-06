@@ -15,15 +15,9 @@ int main()
     {
         for(int j=i+1;j<n;j++)
         {
-            int sum=arr[i]+arr[j];
-            if(sum==k)
+            if(arr[i]+arr[j]==k)
             {
-                if(!printed)
-                {
-                    printf("%d %d\n",arr[i],arr[j]);
-                    printed=1;
-                    break;
-                }
+                printf("%d %d",arr[i],arr[j]);
             }
         }
     }
