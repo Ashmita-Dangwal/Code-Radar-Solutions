@@ -16,16 +16,16 @@ int main()
         {
             if(arr[i]+arr[j]==k)
             {
-                int dup=0;
+                int isdup=0;
                 for(int m=0;m<i;m++)
                 {
                     if(arr[m]==arr[i] && arr[m+1]==arr[j])
                     {
-                        dup =1;
+                        isdup =1;
                         break;
                     }
                 }
-                if(dup!=1)
+                if(!isdup)
             {
                 printf("%d %d\n",arr[i],arr[j]);
             }
