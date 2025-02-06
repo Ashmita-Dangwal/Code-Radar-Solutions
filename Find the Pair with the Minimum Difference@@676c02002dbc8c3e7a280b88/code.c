@@ -22,7 +22,7 @@ int main()
             }
             if(d<m)
             {
-                d=m;
+                m=d;
                 n1=arr[i];
                 n2=arr[j];
             }
