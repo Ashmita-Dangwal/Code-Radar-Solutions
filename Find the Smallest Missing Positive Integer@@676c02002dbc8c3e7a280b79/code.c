@@ -9,12 +9,13 @@ int main()
         scanf("%d",&arr[i]);
     }
     int p[n+1];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++)
+    {
         p[i]=0;
     }
     for(int i=0;i<n;i++)
     {
-        if(arr[i]>0 && ar[i]<=n)
+        if(arr[i]>0 && arr[i]<=n)
         {
             p[arr[i]]=1;
         }
