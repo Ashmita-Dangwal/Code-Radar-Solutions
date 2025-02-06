@@ -19,7 +19,7 @@ int main()
                 int dup=0;
                 for(int m=0;m<i;m++)
                 {
-                    if(arr[m]==arr[i]&&arr[m+1]==arr[j]||arr[m]==arr[j]&&arr[m+1]==arr[i])
+                    if(arr[m]==arr[i])
                     {
                         dup=1;
                         break;
