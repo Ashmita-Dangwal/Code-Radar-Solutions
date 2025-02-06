@@ -13,7 +13,7 @@ int main()
             allsame=0;
         }
     }
-    if allsame
+    if(allsame)
     {
         return 0;
     }
