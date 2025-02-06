@@ -8,16 +8,27 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int printed=0;
     int k;
     scanf("%d",&k);
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n-1;i++)
     {
         for(int j=i+1;j<n;j++)
         {
             if(arr[i]+arr[j]==k)
             {
-                printf("%d %d\n",arr[i],arr[j]);
+                int dup=0;
+                for(int m=0;m<i;m++)
+                {
+                    if(arr[m]==arr[i]&&arr[m+1]==arr[j]||arr[m]==arr[j]&&arr[m+1]==arr[i])
+                    {
+                        dup=1;
+                        break;
+                    }
+                }
+                if(dup!=1)
+                {
+                    printf("%d %d\n",arr[i],arr[j]);
+                }
             }
         }
     }
