@@ -9,6 +9,11 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
+    if(n==1)
+    {
+        printf("-1\n");
+        return 0;
+    }
     int m=INT_MAX;
     int n1,n2;
     for(int i=0;i<n;i++)
