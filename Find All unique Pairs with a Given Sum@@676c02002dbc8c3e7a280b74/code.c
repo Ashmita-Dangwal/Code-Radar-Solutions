@@ -17,7 +17,7 @@ int main()
         {
             if(arr[i]+arr[j]==k)
             {
-                printf("%d %d",arr[i],arr[j]);
+                printf("%d %d\n",arr[i],arr[j]);
             }
         }
     }
