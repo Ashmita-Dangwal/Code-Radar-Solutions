@@ -1,7 +1,7 @@
 #include <stdio.h>
 int m(int arr[],int n)
 {
-    int mf=0,me=0,arr[0];
+    int mf=0,me=arr[0];
     for(int i=0;i<n;i++)
     {
         int count=0;
