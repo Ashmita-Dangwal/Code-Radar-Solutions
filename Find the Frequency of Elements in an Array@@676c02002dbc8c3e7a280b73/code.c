@@ -11,7 +11,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        if(freq[i]=-1)
+        if(freq[i]!=-1)
         {
             continue;
         }
