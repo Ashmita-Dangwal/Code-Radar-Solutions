@@ -16,11 +16,19 @@ int main()
         {
             if(arr[i]+arr[j]==k)
             {
-                    if(i>0 && arr[i]==arr[i-1])
+                int dup=0;
+                for(int m=0;m<i;m++)
+                {
+                    if(arr[m]==arr[i])
                     {
-                        continue;
+                        dup =1;
+                        break;
                     }
-                    printf("%d %d\n",arr[i],arr[j]);
+                }
+            }
+            if(dup!=1)
+            {
+                printf("%d %d\n",arr[i],arr[j]);
             }
         }
     }
