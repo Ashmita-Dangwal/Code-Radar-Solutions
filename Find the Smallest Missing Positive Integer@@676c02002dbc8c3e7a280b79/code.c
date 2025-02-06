@@ -25,6 +25,7 @@ int main()
         if(p[i]==0)
         {
             printf("%d",i);
+            return 0;
         }
     }
     printf("%d",n+1);
