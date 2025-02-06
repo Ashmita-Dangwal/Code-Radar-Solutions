@@ -3,11 +3,11 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int t[n];count=0;
+    int t[n],count=0;
     int arr[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++)
     {
@@ -19,7 +19,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        arr[i]=temp[i];
+        arr[i]=t[i];
     }
     for(int i=count;i<n;i++)
     {
