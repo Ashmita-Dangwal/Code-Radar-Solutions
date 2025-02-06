@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    scanf("%d",&n)l;
+    scanf("%d",&n);
     int arr[n],freq[n];
     for(int i=0;i<n;i++)
     {
