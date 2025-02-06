@@ -16,9 +16,9 @@ int main()
         for(int j=i+1;j<n;j++)
         {
             int d=arr[i]-arr[j];
-            if(diff<0)
+            if(d<0)
             {
-                diff=-diff;
+                d=-d;
             }
             if(d<m)
             {
