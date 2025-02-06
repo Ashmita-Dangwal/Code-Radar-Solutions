@@ -28,6 +28,12 @@ int main()
             }
         }
     }
-    printf("%d %d",n2,n1);
+    if(n1>n2)
+    {
+        int temp=n1;
+        n1=n2;
+        n2=temp;
+    }
+    printf("%d %d",n1,n2);
     return 0;
 }
