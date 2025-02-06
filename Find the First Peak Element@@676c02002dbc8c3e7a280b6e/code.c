@@ -31,6 +31,6 @@ int main()
     {
         scanf("%d\n",&arr[i]);
     }
-    printf("%d",p);
+    printf("%d",p(arr,n));
     return 0;
 }
