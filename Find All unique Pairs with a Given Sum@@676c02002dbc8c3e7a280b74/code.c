@@ -4,9 +4,18 @@ int main()
     int n;
     scanf("%d",&n);
     int arr[n];
+    int allsame=1;
     for(int i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
+        if(arr[i]!=arr[0])
+        {
+            allsame=0;
+        }
+    }
+    if allsame
+    {
+        return 0;
     }
     int k;
     scanf("%d",&k);
@@ -14,21 +23,14 @@ int main()
     {
         for(int j=i+1;j<n;j++)
         {
+         
             if(arr[i]+arr[j]==k)
             {
-                int isdup=0;
-                for(int m=0;m<i;m++)
-                {
-                    if(arr[m]==arr[i] && arr[m+1]==arr[j])
-                    {
-                        isdup =1;
-                        break;
-                    }
-                }
-                if(!isdup)
-            {
                 printf("%d %d\n",arr[i],arr[j]);
-            }
+                while(j+1<n&&arr[j]==arr[j+1])
+                {
+                    j++;
+                }
             }
         }
     }
