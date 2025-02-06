@@ -12,11 +12,11 @@ int m(int arr[],int n)
             count++;
         }
         }
-    }
     if(count>mf)
     {
         mf=count;
         me=arr[i];
+    }
     }
     return me;
 }
