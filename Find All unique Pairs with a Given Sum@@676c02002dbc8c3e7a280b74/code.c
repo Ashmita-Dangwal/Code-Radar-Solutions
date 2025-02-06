@@ -25,10 +25,10 @@ int main()
                         break;
                     }
                 }
-            }
-            if(dup!=1)
+                if(dup!=1)
             {
                 printf("%d %d\n",arr[i],arr[j]);
+            }
             }
         }
     }
