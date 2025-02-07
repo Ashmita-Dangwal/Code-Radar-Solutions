@@ -16,7 +16,7 @@ int c(char str[])
 int main()
 {
     char str[100];
-    scanf("%s",&str);
+    scanf("%s",str);
     int vc=c(str);
     printf("%d",vc)
     return 0;
