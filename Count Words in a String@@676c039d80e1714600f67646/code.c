@@ -14,10 +14,10 @@ int c(char str[])
         {
             count++;
         }
-        while(str[i]!=' '&& str[i]!='\0')
-        {
-            i++;
-        }
+        // while(str[i]!=' '&& str[i]!='\0')
+        // {
+        //     i++;
+        // }
     }
     return count;
 }
