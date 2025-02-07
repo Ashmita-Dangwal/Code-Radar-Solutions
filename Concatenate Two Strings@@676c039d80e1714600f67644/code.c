@@ -8,7 +8,7 @@ int main()
     str1[strcspn(str1,"\n")]='\0';
     str2[strcspn(str2,"\n")]='\0';
     strcpy(result,str1);
-    strcat(result," ");
+    strcat(result,"");
     strcat(result, str2);
     printf("%s",result);
     return 0;
