@@ -2,7 +2,7 @@
 void runningSum(int arr[], int n) 
 {
     int i;
-    for (i = 1;i<n;i++) 
+    for (i=1;i<n;i++) 
     {
         arr[i]+=arr[i - 1];
     }
