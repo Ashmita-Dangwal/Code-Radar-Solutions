@@ -15,7 +15,7 @@ void r(char str[])
 }
 int main()
 {
-    char str[100]
+    char str[100];
     scanf("%s",&str);
     r(str);
     printf("%s",str);
