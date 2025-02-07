@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<stdio.h>
+#include<string.h>
 int c(char str[])
 {
     int count=0;
