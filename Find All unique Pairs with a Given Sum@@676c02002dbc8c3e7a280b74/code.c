@@ -1,38 +1,31 @@
 #include <stdio.h>
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    int allsame=1;
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&arr[i]);
-        if(arr[i]!=arr[0])
-        {
-            allsame=0;
-        }
+
+int main(){
+    int size,target,dup=0,temp;
+    scanf("%d", &size);
+    int arr[size];
+    for (int i = 0; i < size; i++) {
+        scanf("%d",&   arr[i]);
     }
-    if(allsame)
-    {
-        return 0;
+    temp=arr[0];
+ 
+    for (int i = 0; i < size; i++) {
+      if (temp==arr[i]){
+        dup++;
+      }
     }
-    int k;
-    scanf("%d",&k);
-    for(int i=0;i<n-1;i++)
-    {
-        for(int j=i+1;j<n;j++)
-        {
-         
-            if(arr[i]+arr[j]==k)
-            {
+   int stop=0;
+scanf("%d",&target);
+    int c;
+    for(int i=0;i<size;i++){
+   c = target-arr[i];
+        for (int j=i+1;j<size;j++){
+            if (arr[j]==c){
                 printf("%d %d\n",arr[i],arr[j]);
-                while(j+1<n&&arr[j]==arr[j+1])
-                {
-                    j++;
-                }
             }
-        }
-    }
-    return 0;
+            if (size ==dup){
+            goto end;
+      } } }
+end :
+return 0;
 }
