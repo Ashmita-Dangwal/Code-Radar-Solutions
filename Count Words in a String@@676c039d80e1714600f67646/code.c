@@ -3,7 +3,7 @@
 int main() {
     char str[100];
     int count = 0, i = 0;
-    scanf("%s",str)
+    fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';
     while (str[i]!='\0') {
         if ((str[i]!=' '&&(i==0 || str[i-1]==' '))) 
