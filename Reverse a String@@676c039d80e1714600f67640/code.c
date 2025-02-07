@@ -4,7 +4,7 @@ void r(char str[])
 {
     int start=0;
     int end=strlen(str)-1;
-    while(star<end)
+    while(start<end)
     {
         char temp=str[start];
         str[start]=str[end];
