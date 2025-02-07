@@ -12,10 +12,10 @@ void bubblesort(int arr[],int n)
                 arr[j+1]=temp;
             }
         }
-        printf("%d",i+1);
+        printf("%d ",i+1);
         for(int k=0;k<n;k++)
         {
-            printf("%d",arr[k]);
+            printf("%d ",arr[k]);
         }
     }
 }
