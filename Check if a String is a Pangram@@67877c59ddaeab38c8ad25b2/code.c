@@ -9,7 +9,7 @@ int pangram(char str[])
         if(isalpha(str[i]))
         {
             int index=tolower(str[i])-'a';
-            if(letter[index==0])
+            if(!letter[index])
             {
                 letter[index]=1;
                 count++;
@@ -22,6 +22,6 @@ int main()
 {
     char st[1000];
     fgets(str,sizeof(str),stdin);
-    priintf(pangram(str)?"Yes":"No");
+    printf(pangram(str)?"Yes":"No");
     return 0;
 }
