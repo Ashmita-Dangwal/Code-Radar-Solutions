@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 void removespaces(char str[])
 {
     int i=0,j=0;
@@ -33,7 +34,6 @@ int main()
     char str[100];
     fgets(str,sizeof(str),stdin);
     removespaces(str);
-
     if(ispalindrome(str))
     {
         printf("Yes");
