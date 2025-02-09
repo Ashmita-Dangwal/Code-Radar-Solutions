@@ -17,7 +17,7 @@ void removespaces(char str[])
 int main()
 {
     char str[1000];
-    fget(str,sizeof(str),stdin);
+    fgets(str,sizeof(str),stdin);
     removespaces(str);
     printf("%s",str);
     return 0;
