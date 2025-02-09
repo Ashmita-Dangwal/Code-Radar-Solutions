@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 int ispalindrome(char str[])
 {
     int l=0;
@@ -10,6 +10,8 @@ int ispalindrome(char str[])
         {
             return 0;
         }
+        l++;
+        r--;
     }
     return 1;
 }
