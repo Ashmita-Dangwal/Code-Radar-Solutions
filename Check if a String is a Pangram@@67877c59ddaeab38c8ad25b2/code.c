@@ -20,7 +20,7 @@ int pangram(char str[])
 }
 int main()
 {
-    char st[1000];
+    char str[1000];
     fgets(str,sizeof(str),stdin);
     printf(pangram(str)?"Yes":"No");
     return 0;
