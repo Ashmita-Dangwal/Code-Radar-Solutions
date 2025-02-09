@@ -8,7 +8,7 @@ void removespaces(char str[])
     {
         if(str[i]!=' ')
         {
-            str[j]=str[i];
+            str[j]=tolower(str[i]);
             j++;
         }
         i++;
