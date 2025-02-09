@@ -8,9 +8,9 @@ void removespaces(char str[])
         if(str[i]!=' ')
         {
             str[j]=str[i];
-            j++
+            j++;
         }
-        i++
+        i++;
     }
     str[j]='\0';
 }
