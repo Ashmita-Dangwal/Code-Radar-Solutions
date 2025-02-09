@@ -9,7 +9,7 @@ int pangram(char str[])
         if(isalpha(str[i]))
         {
             int index=tolower(str[i])-'a';
-            if(!letter[index])
+            if(letter[index]==0)
             {
                 letter[index]=1;
                 count++;
