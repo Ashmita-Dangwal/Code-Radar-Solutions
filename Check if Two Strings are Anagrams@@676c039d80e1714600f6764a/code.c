@@ -30,9 +30,9 @@ int main()
     sortstring(str1);
     sortstring(str2);
     if(strcmp(str1,str2)==0)
-    [
+    {
         printf("Yes");
-    ]
+    }
     else
     {
         printf("No");
