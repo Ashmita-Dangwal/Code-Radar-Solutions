@@ -31,8 +31,9 @@ int ispalindrome(char str[])
 }
 int main()
 {
-    char str[100];
+    char str[1000];
     fgets(str,sizeof(str),stdin);
+    str[strcspn(str,"\n")]='\0';
     removespaces(str);
     if(ispalindrome(str))
     {
