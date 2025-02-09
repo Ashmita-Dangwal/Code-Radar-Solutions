@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-void reverse(shar str[],int start,int end)
+void reverse(char str[],int start,int end)
 {
     while(start<end)
     {
