@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<string.h>
+#include<ctype.h>
 void removespaces(char str[])
 {
     int i=0,j=0;
