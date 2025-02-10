@@ -12,10 +12,11 @@ void replaceVowels(char str[], char replacement)
 }
 int main() 
 {
-    char str[100];
+    char str[100],replacement;
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';
-    replaceVowels(str, '*');
+    scanf("%s",&replacement);
+    replaceVowels(str, replacement);
     printf("%s", str);
     return 0;
 }
