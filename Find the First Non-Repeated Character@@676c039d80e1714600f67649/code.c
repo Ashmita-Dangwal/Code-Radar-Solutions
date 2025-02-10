@@ -15,7 +15,7 @@ void firstNonRepeatedChar(char str[])
             return;
         }
     }
-    printf("No unique character found.\n");
+    printf("-");
 }
 int main() 
 {
