@@ -9,7 +9,8 @@ char mostFrequentChar(char str[]) {
         if(str[i]=='\n' || str[i]==' ') continue;
         count[(int)str[i]]++;
 
-        if (count[(int)str[i]] > maxCount) {
+        if (count[(int)str[i]] > maxCount || (count[(int)str[i]] == maxCount && str[i] < maxChar)) 
+        {
             maxCount = count[(int)str[i]];
             maxChar = str[i];
         }
