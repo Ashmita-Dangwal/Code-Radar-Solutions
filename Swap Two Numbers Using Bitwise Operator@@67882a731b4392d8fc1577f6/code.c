@@ -11,7 +11,7 @@ int s(int *a,int *b)
 int main()
 {
     int x,y;
-    scanf("%d %d",&x,&y)
+    scanf("%d %d",&x,&y);
     s(&x,&y);
     printf("%d %d",x,y);
     return 0;
