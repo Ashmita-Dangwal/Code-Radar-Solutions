@@ -19,6 +19,6 @@ int main()
     unsigned int num;
     scanf("%u",&num);
     int leadingZeros=count_leading_zeros(num);
-    printf("%d\n", num, leadingZeros);
+    printf("%d\n",leadingZeros);
     return 0;
 }
