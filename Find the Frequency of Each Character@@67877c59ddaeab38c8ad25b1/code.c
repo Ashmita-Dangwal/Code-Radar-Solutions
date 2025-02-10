@@ -14,7 +14,7 @@ void countFrequency(char str[])
     {
         if (freq[i] > 0) 
         {
-            printf("%d\n",freq[i]);
+            printf("%c: %d\n", i, freq[i]);
         }
     }
 }
