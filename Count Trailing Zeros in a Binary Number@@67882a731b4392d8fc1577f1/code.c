@@ -6,7 +6,7 @@ int ct(unsigned int n)
     while((n&1)==0)
     {
         count++;
-        n>>1;
+        n>>=1;
     }
     return count;
 }
