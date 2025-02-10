@@ -15,7 +15,7 @@ int main()
     char str[100],replacement;
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';
-    scanf("%s",&replacement);
+    scanf("%c",&replacement);
     replaceVowels(str, replacement);
     printf("%s", str);
     return 0;
