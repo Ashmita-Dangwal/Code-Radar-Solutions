@@ -12,8 +12,11 @@ void countFrequency(char str[])
     }
 for(int i = 0; str[i] != '\0'; i++) 
     {
-        if(freq[(int)str[i]] > 0 && str[i] != ' ') 
+        if(freq[(int)str[i]] > 0) 
         {
+            if(str[i]==' ')
+            printf(" : %d",freq[(int)str[i]]);
+            else
             printf("%c: %d\n", str[i], freq[(int)str[i]]);
             freq[(int)str[i]] = 0;
         }
