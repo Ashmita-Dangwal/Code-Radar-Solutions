@@ -23,6 +23,5 @@ int main()
     unsigned int n;
     scanf("%u",&n);
     d(n);
-    printf("%d",n);
     return 0;
 }
