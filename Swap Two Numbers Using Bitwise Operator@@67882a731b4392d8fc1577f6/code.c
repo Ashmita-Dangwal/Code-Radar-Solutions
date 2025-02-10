@@ -1,5 +1,5 @@
 #include <stdio.h>
-int s(int *a,*int b)
+int s(int *a,int *b)
 {
     if(*a!=*b)
     {
