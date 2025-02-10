@@ -6,6 +6,7 @@ char mostFrequentChar(char str[]) {
     int maxCount = 0;
     for (int i = 0; str[i] != '\0'; i++) 
     {
+        if(str[i]=='\n' || str[i]==' ') continue;
         count[(int)str[i]]++;
 
         if (count[(int)str[i]] > maxCount) {
