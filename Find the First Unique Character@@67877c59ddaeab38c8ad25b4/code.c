@@ -25,6 +25,6 @@ int main()
     if (unique)
         printf("%c\n", unique);
     else
-        printf("No unique character found.\n");
+        printf("-");
     return 0;
 }
