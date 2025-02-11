@@ -13,7 +13,7 @@ void countFrequency(char str[])
         {
             // if(str[i]==' ')
             // printf(" : %d\n",freq[(int)str[i]]);
-            else
+            // else
             printf("%c: %d\n", str[i], freq[(int)str[i]]);
             freq[(int)str[i]] = 0;
         }
