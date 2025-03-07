@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<strings.h>
 void swap(char str1[],char str2[])
 {
     char temp[100];
