@@ -1,4 +1,4 @@
-int fibonacci(int n)
+int fibonacciSeries(int n)
 {
     if(n<=0){
         return 0;
@@ -8,6 +8,6 @@ int fibonacci(int n)
         return 1;
     }
     else{
-    return fibonacci(n-1)+fibonacci(n-2);
+    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
     }
 }
