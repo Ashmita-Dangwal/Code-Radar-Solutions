@@ -13,7 +13,7 @@ void bubbleSort(char arr[],int n)
         {
             if(arr[j]>arr[j+1])
             {
-                swap(&arr[i],&arr[j+1]);
+                swap(&arr[j],&arr[j+1]);
                 swapped=1;
             }
         }
