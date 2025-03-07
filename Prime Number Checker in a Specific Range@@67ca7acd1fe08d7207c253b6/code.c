@@ -10,7 +10,7 @@ int isPrime(int n)
     }
     return 1;
 }
-void printfPrimeInRange(int a,int b)
+void printPrimeInRange(int a,int b)
 {
     int found =0;
     for(int i=a;i<=b;i++)
