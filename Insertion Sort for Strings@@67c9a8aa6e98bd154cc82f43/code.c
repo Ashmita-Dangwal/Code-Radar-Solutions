@@ -12,7 +12,7 @@ void insertionSort(char arr[][100],int n)
             strcpy(arr[j+1],arr[j]);
             j--;
         }
-        strcpy([j+1],key);
+        strcpy(arr[j+1],key);
     }
 }
 void printArray(char arr[][100],int n)
