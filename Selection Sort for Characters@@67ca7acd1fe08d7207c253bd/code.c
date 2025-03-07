@@ -1,6 +1,6 @@
 void swap(char *a,char *b)
 {
-    char temp=*a;
+    char *temp=*a;
     *a=*b;
     *b=*temp;
 }
