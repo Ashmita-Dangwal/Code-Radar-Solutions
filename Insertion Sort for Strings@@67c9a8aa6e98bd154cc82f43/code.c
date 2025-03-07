@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include<string.h>
 void insertionSort(char arr[][100],int n)
 {
     for(int i=1;i<n;i++)
@@ -17,7 +19,7 @@ void printArray(int arr[],int n)
 {
     for(int i=0;i<n;i++)
     {
-        printf("%d ",arr[i]);
+        printf("%s\n
+        ",arr[i]);
     }
-    printf("\n");
 }
