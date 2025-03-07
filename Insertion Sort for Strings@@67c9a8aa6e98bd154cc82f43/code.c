@@ -19,7 +19,7 @@ void printArray(int arr[],int n)
 {
     for(int i=0;i<n;i++)
     {
-        printf("%s\n",arr[i])
+        printf("%s\n",arr[i]);
         ",arr[i]);
     }
 }
