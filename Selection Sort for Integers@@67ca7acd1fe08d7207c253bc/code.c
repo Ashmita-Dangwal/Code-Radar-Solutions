@@ -22,8 +22,8 @@ void printArray(int arr[],int n)
 {
     for(int i=0;i<n;i++)
     {
-        if(i>0) printf(" ");
-        printf("%d",arr[i]);
+        // if(i>0) printf(" ");
+        printf("%d ",arr[i]);
     }
     printf("\n");
 }
