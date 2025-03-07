@@ -15,7 +15,7 @@ void insertionSort(char arr[][100],int n)
         strcpy([j+1],key);
     }
 }
-void printArray(int arr[],int n)
+void printArray(char arr[][100],int n)
 {
     for(int i=0;i<n;i++)
     {
