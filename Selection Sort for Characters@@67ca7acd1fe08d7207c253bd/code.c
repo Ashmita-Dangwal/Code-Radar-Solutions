@@ -1,8 +1,8 @@
 void swap(char *a,char *b)
 {
-    char *temp=*a;
+    char temp=*a;
     *a=*b;
-    *b=*temp;
+    *b=temp;
 }
 void selectionSort(int arr[],int n)
 {
