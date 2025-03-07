@@ -2,7 +2,7 @@ void swap(char str1[],char str2[])
 {
     char temp[100];
     strcpy(temp,str1);
-    strcpy(str2,str1);
+    strcpy(str1,str2);
     strcpy(str2,temp);
 }
 void selectionSort(char arr[][100],int n)
