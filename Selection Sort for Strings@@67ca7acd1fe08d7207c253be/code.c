@@ -1,3 +1,4 @@
+#include<stdio.h>
 void swap(char str1[],char str2[])
 {
     char temp[100];
