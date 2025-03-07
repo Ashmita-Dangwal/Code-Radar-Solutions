@@ -15,7 +15,7 @@ int findKthmissing(int arr[],int n,int k)
                 return current;
             }
         }
-        cureent++;
+        current++;
     }
     return -1;
 }
