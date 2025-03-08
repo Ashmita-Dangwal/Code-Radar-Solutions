@@ -20,4 +20,8 @@ void compressString(char str[],char compressed[])
         }
     }
     compressed[index]='\0';
+    if(strlen(compressed)>=len)
+    {
+        strcpy(compressed,str);
+    }
 }
