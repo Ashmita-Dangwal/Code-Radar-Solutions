@@ -1,44 +1,45 @@
-int findUnsortedSubarray(int arr[], int n) {
-    int start = -1, end = -1;
-    for (int i = 0; i < n - 1; i++) 
+int findUnsortedSubarray(int arr[], int n) 
+{
+    int start=-1,end=-1;
+    for(int i=0;i<n-1;i++) 
     {
-        if (arr[i] > arr[i + 1]) 
+        if(arr[i]>arr[i+1]) 
         {
-            start = i;
+            start=i;
             break;
         }
     }
-    if (start == -1) return 0;
-    for (int i = n - 1; i > 0; i--) 
+    if(start==-1) return 0;
+    for(int i=n-1;i>0;i--) 
     {
-        if (arr[i] < arr[i - 1]) 
+        if(arr[i]<arr[i-1]) 
         {
-            end = i;
+            end=i;
             break;
         }
     }
-    int minVal = arr[start], maxVal = arr[start];
-    for (int i = start; i <= end; i++) 
+    int minVal=arr[start],maxVal=arr[start];
+    for(int i=start;i<=end;i++) 
     {
-        if (arr[i] < minVal) minVal = arr[i];
-        if (arr[i] > maxVal) maxVal = arr[i];
+        if(arr[i]<minVal) minVal=arr[i];
+        if(arr[i]>maxVal) maxVal=arr[i];
     }
-    for (int i = 0; i < start; i++) 
+    for(int i=0;i<start;i++) 
     {
-        if (arr[i] > minVal) 
+        if(arr[i]>minVal) 
         {
-            start = i;
+            start=i;
             break;
         }
     }
-    for (int i = n - 1; i > end; i--) 
+    for(int i=n-1;i>end;i--) 
     {
-        if (arr[i] < maxVal) 
+        if(arr[i]<maxVal) 
         {
-            end = i;
+            end=i;
             break;
         }
     }
-    
-    return end - start + 1;
+    return end-start+1;
 }
+
