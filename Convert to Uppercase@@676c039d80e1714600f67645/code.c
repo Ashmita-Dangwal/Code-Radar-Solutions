@@ -3,12 +3,17 @@
 #include<ctype.h>
 void c(char str[])
 {
-    int i=0;
-    while(str[i]!='\0')
+    for(int i=0;str[i]!='\0',i++)
     {
+        if(islower(str[i]))
         str[i]=toupper(str[i]);
-        i++;
     }
+    // int i=0;
+    // while(str[i]!='\0')
+    // {
+    //     str[i]=toupper(str[i]);
+    //     i++;
+    // }
 }
 int main()
 {
