@@ -21,6 +21,6 @@ int main()
             }
         }
     }
-    printf("%d",p);
+    printf("%d",max);
     return 0;
 }
